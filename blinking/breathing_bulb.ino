@@ -10,12 +10,12 @@ void loop() {
         delay(10);
     }
 
-    delay(500);
+    delay(250);
 
     for (int i = 255; i >= 0; i--) {
         analogWrite(ledPin, i);
         delay(10);
     }
 
-    delay(1000);
+    delay(250);
 }
